@@ -1,0 +1,14 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-button {
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+  }
+  
