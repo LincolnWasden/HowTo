@@ -10,9 +10,9 @@ function Dashboard() {
     const currentUser = getAuth(app).currentUser;
     let filters;
   
-    if (currentUser && currentUser.email === 'lincolnnemelka@gmail.com') {
+    if (currentUser && currentUser.email === 'lincolnnemelka@gmail.com' || currentUser && currentUser.email === 'growadmin@gmail.com') {
       filters = 'cfde347d147ac2838f15d3b44c113020.8f0182eb4f1a9f3d48b6c7ca6bfb9d89374d1990a61e9f5625ad62c9699aad7a60f0a6e996f36abc8c65b0f27cb4fbe399a48b36f3d689a4e5e4ce8787e2c51d871f4ea0f854bf3d4e2f268adf3e2f2b';
-    } else if (currentUser && currentUser.email === 'lincolndwasden@gmail.com') {
+    } else if (currentUser && currentUser.email === 'lincolndwasden@gmail.com'|| currentUser && currentUser.email === 'growuser@gmail.com') {
       filters = '0362dfd16ad5137755ec98af5c6d2a93.a2788a68785315476deff570b92e0e1eebaee369a9a18b2eacd2c22c3f0b367da02619342b916fc8d28877affa526dd43c30a657419e11af4e44d581680f4d12e73443c0b308e133502519984087e266e6e48fe4cfa8f3c6033f72ef1552b3c1';
     }
     else {
